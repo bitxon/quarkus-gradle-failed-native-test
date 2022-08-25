@@ -39,6 +39,6 @@ jobs:
         working-directory: ./gradle-project
         run: ./gradlew clean build
 
-      - name: Gradle - Native Test
+      - name: Gradle - Quarkus Int Test
         working-directory: ./gradle-project
-        run: ./gradlew testNative
+        run: ./gradlew quarkusIntTest
